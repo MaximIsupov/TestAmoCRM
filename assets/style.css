@@ -1,0 +1,40 @@
+form{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    border: 1px solid black;
+    width: 500px;
+    max-width: 95%;
+    height: fit-content;
+    max-height: 90%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+form input{
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+form button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    background-color: white;
+    transition: all 0.2s linear;
+}
+form button:hover{
+    transform: scale(0.98);
+    background: black;
+    color: white;
+    cursor: pointer;
+}
