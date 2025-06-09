@@ -1,0 +1,19 @@
+{
+    "name": "test/amo-crm",
+    "description": "AmoCrmIntegration",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Test\\AmoCrm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MaximIsupov",
+            "email": "maksimm290100@gmail.com"
+        }
+    ],
+    "require": {
+        "amocrm/amocrm-api-library": "1.13.1"
+    }
+}
